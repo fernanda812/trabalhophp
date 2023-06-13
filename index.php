@@ -473,6 +473,24 @@
             );
 
             
+            foreach ($UFS as $chaves => $valor) {
+
+
+                echo "<tr><td>{$UFS[$chaves]['bandeira']}</td>";
+                echo "<td>{$UFS[$chaves]['uf']}</td>";
+                echo "<td>{$UFS[$chaves]['abreviacao']}</td>";
+                echo "<td>{$UFS[$chaves]['sede']}</td>";
+                echo "<td>{$UFS[$chaves]['area']}</td>";
+                echo "<td>{$UFS[$chaves]['populacao']}</td>";
+                echo "<td>{$UFS[$chaves]['densidade']}</td>";
+                echo "<td>{$UFS[$chaves]['PIB']}</td>";
+                echo "<td>{$UFS[$chaves]['total']}</td>";
+                echo "<td>{$UFS[$chaves]['percapita']}</td>";
+                echo "<td>{$UFS[$chaves]['IDH']}</td>";
+                echo "<td>{$UFS[$chaves]['alfabetizacao']}</td>";
+                echo "<td>{$UFS[$chaves]['mortalidadeinfantil']}</td>";
+                echo "<td>{$UFS[$chaves]['expectativadevida']}</td></tr>";
+            }             
 
 
 
