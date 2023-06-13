@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unidades federativas do Brasil</title>
+    <title>Unidades Federativas do Brasil</title>
 </head>
 
 <body>
@@ -29,6 +29,36 @@
             </tr>
         </thead>
         <tbody>
+            <?php
+
+
+            $UFS = array(
+
+
+                'AC' => array(
+                    'bandeira' => '<img width="50" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg" alt="Bandeira do Acre">',
+                    'uf' => 'Acre',
+                    'abreviacao' => 'AC',
+                    'sede' => 'Rio Branco',
+                    'area' => number_format(164122.2, 1, ',', ' '),
+                    'populacao' => number_format(795145, 0, ' ', ' '),
+                    'densidade' => number_format(4.30, 2, ','),
+                    'PIB' => number_format(13622000, 0, ' ', ' '),
+                    'total' => number_format(0.2, 1, ','),
+                    'percapita' => number_format(16953.46, 2, ',', ' '),
+                    'IDH' => number_format(0.663, 3, ','),
+                    'alfabetizacao' => number_format(86.9, 1, ',') . '%',
+                    'mortalidadeinfantil' => number_format(17.0, 1, ',') . '&#8240;',
+                    'expectativadevida' => number_format(73.9, 1, ',') . 'anos'
+
+
+                )
+            )
+
+
+
+            ?>
+
 
         </tbody>
 
