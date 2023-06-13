@@ -11,3 +11,6 @@ td, th{
     border:0.1rem solid black;
     width: 100px;
 }
+th:nth-child(even), tr:nth-child(even){
+    background-color: rgb(185, 176, 176);
+}   
